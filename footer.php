@@ -34,7 +34,6 @@ $reception_background = iro_opt('reception_background');
                 ); ?>
               </p>
           <?php endif; ?>
-          
           <?php if (iro_opt('footer_upyun', 'true')): ?>
             <p class="cdn-provider">
               <span>本网站由</span>
@@ -44,12 +43,9 @@ $reception_background = iro_opt('reception_background');
               <span>提供 CDN 加速 / 云存储 服务</span>
             </p>
           <?php endif; ?>
-        </div>
-      
-      <div class="theme-info">
           <?php if (iro_opt('footer_sakura', 'true')): ?>
             <div class="sakura-icon">
-              <svg width="30px" height="30px" t="1682340134496" class="sakura-svg" viewBox="0 0 1049 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5240">
+              <svg width="20px" height="20px" t="1682340134496" class="sakura-svg" viewBox="0 0 1049 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5240">
                 <path d="M525.58396628 573.34694353s268.83106938-2.62915481 309.36387092 193.24287089l-76.46458293 21.90962291 12.92667757 84.13295086a214.05701289 214.05701289 0 0 1-96.84053193-4.82011663A224.79272784 224.79272784 0 0 1 525.58396628 578.38615666z" fill="#EE9ca7" p-id="5241"></path>
                 <path d="M552.75189802 512.4381922s131.45773592-233.7756732 321.63325979-170.89505575L854.2283053 418.66500728l79.31283344 30.89256828a215.59068679 215.59068679 0 0 1-52.58309388 81.50379604 224.57363215 224.57363215 0 0 1-325.35789552-14.67944718z" fill="#EE9ca7" p-id="5242"></path>
                 <path d="M508.49446078 494.0341093S317.00435871 306.48774025 426.77156822 139.31731943l69.4535037 38.78003191L547.4935884 109.30113636a214.05701289 214.05701289 0 0 1 65.72886796 71.86356201 225.01182435 225.01182435 0 0 1-98.37420505 310.67844912z" fill="#EE9ca7" p-id="5243"></path>
@@ -58,9 +54,11 @@ $reception_background = iro_opt('reception_background');
               </svg>
             </div>
           <?php endif; ?>
-        <a href="https://github.com/mirai-mamori/Sakurairo" rel="noopener" target="_blank">Theme Sakurairo</a>
-        <a href="https://docs.fuukei.org/" rel="noopener" target="_blank">by Fuukei</a>
-      </div>
+          <div class="theme-info">
+            <a href="https://github.com/mirai-mamori/Sakurairo" rel="noopener" target="_blank">Sakurairo</a>
+            <a href="https://docs.fuukei.org/" rel="noopener" target="_blank">by Fuukei</a>
+          </div>
+        </div>
     </div><!-- .site-info -->
   </footer><!-- #colophon -->
   </section><!-- #section -->

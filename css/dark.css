@@ -71,10 +71,6 @@ body.dark .post-date, body.dark .post-meta {
   border: 1px solid var(--dark-border-color);
 }
 
-body.dark .theme-info {
-  border-top-color: rgba(255, 255, 255, 0.05);
-}
-
 body.dark .site-footer p {
   color: #7d7d7d;
 }
